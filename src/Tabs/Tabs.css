@@ -1,0 +1,65 @@
+.tabs-wrapper {
+  background-color: rgb(12, 5, 20);
+  padding: 30px;
+  max-width: max-content;
+}
+
+.logo-text-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.react-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.tabs-heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(7, 146, 189);
+}
+
+.tabs-para {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(7, 146, 189);
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+
+  @media screen and (max-width: 767px) {
+    display: grid;
+    max-width:max-content;
+    ;
+  }
+}
+.active {
+  background-color: rgb(7, 146, 189);
+  color: black;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  white-space: nowrap;
+}
+.not-active {
+  background-color: rgb(43, 42, 42);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: none;
+  white-space: nowrap;
+}
+
+.list-items {
+  color: white;
+}
+#tab-content{
+    padding: 5px 20px 5px 0px;
+    background-color: rgb(43, 41, 41);
+    max-width: max-content;
+    border-radius: 5px;
+}
